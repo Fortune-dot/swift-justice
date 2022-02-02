@@ -1,6 +1,6 @@
 <?php
 
-    
+    /*
         //Establishing Connection with server by passing server_name, user_id and pass as a patameter
         //Get Heroku ClearDB connection information
         $cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
@@ -13,5 +13,7 @@
          
 
         $connect = new PDO("mysql:host=$cleardb_server;dbname=$cleardb_username", "$cleardb_password", "$cleardb_db");
+
+        */
 
 ?>
